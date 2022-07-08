@@ -1,6 +1,10 @@
 import java.util.*;
 
 public class Main {
+    //идея состоит в том, что есть список компаний авиаперевозчиков со всеми данными. Определенная компания находиться
+    //в определенной стране. В зависимости страны пребывания компании, нужный нам самолет может
+    // лететь в этом направлении. Ползователь -сотрудник простто вводит номер нужной компании
+    //  и программа сама определяет нужный нам самолет.
     public static void main(String[] args) {
         LinkedHashMap<FlightCompany, String> map = new LinkedHashMap<>();
         LinkedHashSet<FlightCompany> set = new LinkedHashSet<>();
