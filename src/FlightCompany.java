@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class FlightCompany {
+public class FlightCompany extends Plain implements AirPlane{
 
     private final int  number;
     private final String name;
